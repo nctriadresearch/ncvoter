@@ -1,3 +1,3 @@
 usethis::use_make()
 
-usethis::
+usethis::use_data_raw(name = "county_codes")

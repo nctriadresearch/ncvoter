@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^Makefile$
 ^init.R$
+^data-raw$
