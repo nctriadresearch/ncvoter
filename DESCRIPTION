@@ -1,5 +1,5 @@
 Package: ncvoter
-Title: What the Package Does (One Line, Title Case)
+Title: Retrieving NC Voters Rolls and Voter History from the NCSBE
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Michael",
@@ -7,7 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "me.dewitt.jr@gmail.com",
            comment = c(ORCID = "0000-0001-8940-1967"))
-Description: What the package does (one paragraph).
+Description: The NCSBE puts the voters history and voter rolls electronically
+    on the web. This is an R interface to trieve the files.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -17,3 +18,5 @@ Imports:
     utils,
     RSQLite
 RoxygenNote: 6.1.1
+Suggests: 
+    covr

@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ncvoter
+
+<!-- badges: start -->
+[![Codecov test coverage](https://codecov.io/gh/nctriadresearch/ncvoter/branch/master/graph/badge.svg)](https://codecov.io/gh/nctriadresearch/ncvoter?branch=master)
+[![Travis build status](https://travis-ci.org/nctriadresearch/ncvoter.svg?branch=master)](https://travis-ci.org/nctriadresearch/ncvoter)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+The goal of ncvoter is to ...
+
+## Installation
+
+You can install the released version of ncvoter from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("ncvoter")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("nctriadresearch/ncvoter")
+```
+
+
+Please note that the 'ncvoter' project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By contributing to this project, you agree to abide by its terms.

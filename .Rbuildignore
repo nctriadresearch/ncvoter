@@ -4,3 +4,7 @@
 ^init.R$
 ^data-raw$
 ^\.travis\.yml$
+^appveyor\.yml$
+^README\.Rmd$
+^codecov\.yml$
+^CODE_OF_CONDUCT\.md$
