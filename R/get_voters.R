@@ -17,4 +17,6 @@ get_voters <- function(file_type, county, local_version = FALSE){
 
 	county_match <- return_valid_county(county)
 
+
+
 }
