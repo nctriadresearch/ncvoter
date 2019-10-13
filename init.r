@@ -5,6 +5,7 @@ usethis::use_package("dplyr")
 usethis::use_package("data.table")
 usethis::use_package("utils")
 usethis::use_package("RSQLite")
+usethis::use_package("fs")
 
 usethis::use_travis()
 usethis::use_appveyor()

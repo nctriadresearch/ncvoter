@@ -9,6 +9,7 @@
 #' dat <- get_voters(file_type = "ncvhis", county = "forsyth")
 #' dat <- get_voters("ncvhis", 67)
 #' }
+#' @importFrom utils download.file unzip
 #' @export
 
 get_voters <- function(file_type, county,
